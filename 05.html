@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practical_05</title>
+</head>
+<body>
+    <h1 align="center">Student Registration Form</h1>
+    <hr><br>
+    <form method="post" action="#" align="center">
+
+        <div>
+         <label for="full name">Full Name: </label>
+         <input type="text" name="full name" placeholder="Enter your name">
+        </div><br>
+
+        <div>
+         <label for="email">E-Mail: </label>
+         <input type="email" name="email" placeholder="Enter your e-mail">
+        </div><br>
+
+        <div>
+         <label for="password">Password: </label>
+         <input type="password" name="email" placeholder="Enter your password">
+        </div> <br>
+
+        <div>
+            <label for="number">Phone: </label>
+            <input type="tel" name="number" placeholder="Enter your phone number">
+        </div><br>
+         
+        <div>
+         <label for="gender">Gender: </label>
+         <input type="radio" name="gender" value="male" required>Male
+
+         <input type="radio" name="gender" value="female" required>Female
+       
+         <input type="radio" name="gender" value="other" required>Other
+        </div><br>
+
+        <div>
+            <label for="course">Course: </label>
+            <select name="course" id="course" value="course">
+                <option value="select">--Select Course--</option>
+                <option value="Btech">B.Tech</option>
+                <option value="Mtech">M.Tech</option>
+                <option value="BCA">BCA</option>
+                <option value="MCA">MCA</option>
+                <option value="MBA">MBA</option>
+            </select>
+        </div><br>
+         
+        <div>
+            <label for="address">Address: </label><br>
+            <textarea name="address" rows="5" cols="50" placeholder="write your address...."></textarea>
+        </div>
+        <button type="sumbit">Register</button>
+        <button type="reset">Clear</button>
+
+        <footer>
+            <hr>
+            <p align="canter">
+                &copy;2026 Student Registration Form
+            </p>
+
+        </footer>
+
+
+
+    </form>
+
+</body>
+</html>
